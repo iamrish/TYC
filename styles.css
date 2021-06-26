@@ -1,0 +1,57 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+
+header, #header-content{
+    height: 4rem;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: #686968;
+}
+
+#card1{
+    background-color:#ffffff;
+    height: 100%;
+}
+
+#card2{
+    background-color: #8b7fbe;
+    height: 100%;
+}
+
+#title{
+    text-align: center;
+    font-size: 100px;
+    color: #686968;
+    padding-top: 15%;
+    white-space: pre-wrap;
+
+}
+
+#header-btns{
+    text-align: right;
+    /* width: 50%; */
+    float: right;
+}
+
+#about-btn, #contact-btn, #home-btn{
+    padding: 1.3rem;
+    background-color: #ffffff;
+    color: #686968;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+#header-text{
+    background-color: #ffffff;
+    color: #686968;
+    font-size: 20px;
+    font-weight: bold;
+    /* width: 50%; */
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
