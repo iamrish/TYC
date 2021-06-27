@@ -1,57 +1,72 @@
-html, body{
-    height: 100%;
-    margin: 0px;
+html,
+body {
+  height: 100%;
+  margin: 0px;
 }
 
-header, #header-content{
-    height: 4rem;
-    background-color: #ffffff;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-bottom: #686968;
+header,
+#header-content {
+  height: 5rem;
+  background-color: #ffffff;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: solid #686968;
+  border-width: 1px;
 }
 
-#card1{
-    background-color:#ffffff;
-    height: 100%;
+#card1 {
+  background-color: #ffffff;
+  height: 75%;
 }
 
-#card2{
-    background-color: #8b7fbe;
-    height: 100%;
+#card2 {
+  background-color: #081631;
+  height: 75%;
 }
 
-#title{
-    text-align: center;
-    font-size: 100px;
-    color: #686968;
-    padding-top: 15%;
-    white-space: pre-wrap;
-
+#title {
+  text-align: center;
+  font-size: 75px;
+  color: #686968;
+  padding-top: 10%;
+  white-space: pre-wrap;
 }
 
-#header-btns{
-    text-align: right;
-    /* width: 50%; */
-    float: right;
+#header-btns {
+  text-align: right;
+  /* width: 50%; */
+  float: right;
+  margin-top: 1.5%;
 }
 
-#about-btn, #contact-btn, #home-btn{
-    padding: 1.3rem;
-    background-color: #ffffff;
-    color: #686968;
-    border: 0px;
-    font-size: 16px;
-    font-weight: bold;
-    
+#about-btn,
+#contact-btn,
+#home-btn {
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  background-color: #ffffff;
+  color: #686968;
+  border: 0px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-#header-text{
-    background-color: #ffffff;
-    color: #686968;
-    font-size: 20px;
-    font-weight: bold;
-    /* width: 50%; */
-    float: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#header-text {
+  background-color: #ffffff;
+  color: #686968;
+  font-size: 25px;
+  font-weight: bold;
+  /* width: 50%; */
+  float: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#about-desc {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+    color: #ffffff;
+    font-size: 25px;
+    white-space: pre;
 }
